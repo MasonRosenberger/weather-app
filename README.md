@@ -6,7 +6,7 @@ Users can search for any city and get the current weather, powered by a public w
 ---
 
 ## 🔗 Live Demo
-[View on GitHub Pages](https://your-MasonRosenberger.github.io/weather-app)
+[View on GitHub Pages](https://masonrosenberger.github.io/weather-app)
 
 ---
 
