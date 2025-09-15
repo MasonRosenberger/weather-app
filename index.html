@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Weather App</h1>
+
+    <div class="search">
+      <label for="city" class="visually-hidden">City</label>
+      <input id="city" type="text" placeholder="Enter city (e.g., London)" autocomplete="off" />
+      <!-- No inline onclick; wired up in script.js -->
+      <button id="search-btn" type="button">Search</button>
+    </div>
+
+    <section class="current">
+    <div class="current-top">
+        <img id="weather-icon" alt="Weather icon" style="display:none;" />
+        <div id="temp-div"></div>
+    </div>
+    <div id="weather-info"></div>
+    </section>
+
+
+    <section class="hourly">
+      <h2>Next 24 hours</h2>
+      <div id="hourly-forecast" class="hourly-grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
